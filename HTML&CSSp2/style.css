@@ -1,0 +1,63 @@
+/* header  */
+* {
+  padding: 0;
+  margin: 0;
+}
+header {
+  padding: 10px 30px;
+  display: flex;
+  align-self: center;
+}
+
+.logo {
+  background-color: #010b0b;
+  width: 100px;
+}
+.nav-link {
+  list-style: none;
+  display: flex;
+}
+.nav-link li a {
+  margin-left: 40px;
+  text-decoration: none;
+  font-size: large;
+}
+
+/* nav btn */
+.nav-btn {
+  position: absolute;
+  right: 30px;
+}
+.nav-btn a button {
+  color: #ffffff;
+  background-color: #8c00ff;
+  padding: 5px 15px;
+  border-radius: 5px;
+  border: none;
+}
+
+/* main content */
+
+.f-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.f-section div h1{
+    font-weight: bolder;
+    margin-bottom: 20px;
+
+}
+.f-section div h1 span{
+    color: #8c00ff;
+}
+
+.main-btn {
+  padding: 5px 15px;
+  border-radius: 5px;
+  border: none;
+  color: #ffffff;
+  background-color: #8c00ff;
+  margin-top: 30px;
+}
